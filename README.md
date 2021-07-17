@@ -63,7 +63,7 @@ DynamicThemeMode.managerOf(context)?.setThemeMode(ThemeMode.light);
 - Get the current `themeMode` value with:
 
 ```dart
-DynamicThemeMode.managerOf(context)?.value;
+DynamicThemeMode.managerOf(context)?.themeMode;
 ```
 
 The `example` folder has a complete example!
